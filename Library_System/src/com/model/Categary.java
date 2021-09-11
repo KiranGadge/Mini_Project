@@ -4,10 +4,9 @@ public class Categary {
 
 	private int Categary_id;
 	private String Categary_type;
-	
-	public Categary()
-	{
-		
+
+	public Categary() {
+
 	}
 
 	public Categary(int categary_id, String categary_type) {
@@ -32,10 +31,8 @@ public class Categary {
 		Categary_type = categary_type;
 	}
 
-	@Override
 	public String toString() {
-		return "Categary has--> Categary_id=" + Categary_id + ", Categary_type=" + Categary_type ;
+		return "Categary has--> Categary_id=" + Categary_id + ", Categary_type=" + Categary_type;
 	}
-	
-	
+
 }

@@ -6,13 +6,12 @@ public class Member {
 	private String Member_name;
 	private long Mobile;
 	private String Address;
-	
-	public Member()
-	{
-		
+
+	public Member() {
+
 	}
 
-	public Member(int member_id, String member_name, int mobile, String address) {
+	public Member(int member_id, String member_name, long mobile, String address) {
 		super();
 		Member_id = member_id;
 		Member_name = member_name;
@@ -52,11 +51,9 @@ public class Member {
 		Address = address;
 	}
 
-	@Override
 	public String toString() {
-		return "Member has--> Member_id=" + Member_id + ", Member_name=" + Member_name + ", Mobile=" + Mobile + ", Address="
-				+ Address;
+		return "Member has--> Member_id=" + Member_id + ", Member_name=" + Member_name + ", Mobile=" + Mobile
+				+ ", Address=" + Address;
 	}
-	
-	
+
 }
